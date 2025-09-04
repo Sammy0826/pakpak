@@ -115,7 +115,121 @@
         // echo $x . " " . $y . " ".  $z . "<br>";
         // echo "$x sanaol $y beybeh $z <br";
         // echo "Samantha \$Beybeh\" Capunpun";
-        
+
+        // //casting
+        //   $a = (object) "Sammy";
+        //   $b = (object) 21;
+        //   $c = (object) 5.5;
+        //   $d = (object) true;
+        //   $e = (object) [1,2,3];
+        //   $g = (object) null;
+        //   $h = (object) fopen("php_practice.php", "r");
+
+        // //   unset($a); 
+        // //   echo
+
+        //   var_dump($a);
+        //   echo "<br>";
+        //   var_dump($b);
+        //   echo "<br>";
+        //   var_dump($c);
+        //   echo "<br>";
+        //   var_dump($d);
+        //   echo "<br>";
+        //   var_dump($e);
+        //   echo "<br>";
+        //   var_dump($g);
+        //   echo "<br>";
+        //   var_dump($h);
+        //   echo "<br>";
+
+        // echo pi();
+
+        // echo abs(-5);
+
+        // echo sqrt(6);
+
+        // echo round(5.5);
+
+        // echo rand(5, 20);
+
+        //constant
+
+        // $_sam = 5;
+        // define("GREETING", "HELLO");
+        // //echo GREETING;
+
+        // function test(){
+        //     echo GREETING;
+        // }
+
+        // test();
+
+        //  $x = 5;
+
+        // +=
+        // $x = $x + 10;
+        // $x += 10;
+
+        // echo $x;
+
+        // $x %= 5;
+        // echo $x;
+
+        //comparison
+
+        // var_dump(5 == "5"); //true
+        // var_dump(5 === 5); //true
+        // var_dump(5 <> 7); //true
+        // var_dump(5 !== "5"); //true
+
+        // echo 1 <=> 2;
+
+        //increment
+
+        //++
+        //pre-increment/decrement
+
+        // $x = 5;
+        // echo ++$x;
+
+        //post-increment/decrement
+
+        // $y = 5;
+        // echo $y++;
+        // echo $y;
+
+        //logical 
+
+        // and &&
+        // var_dump(true and true); //true
+        // var_dump(true && false); //false
+        // var_dump(false and false); //false
+
+        // var_dump(5 == "5" && 5 == 5); //both true
+
+        //or ||
+
+        // var_dump(true or true); //t
+        // var_dump(true or false);//t
+        // var_dump(false or false);//f
+
+        //xor
+        // var_dump(true xor true); //only one true
+
+        //! reverse
+
+        // var_dump(!true); //f
+        // var_dump(!false); //t
+
+        //. concat
+        // $x = "Hello" . "World";
+        // $x = "Hello";
+
+        // .= append
+        // $x .= "world!";
+        // echo $x;
+
 
 
         
