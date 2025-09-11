@@ -230,10 +230,138 @@
         // $x .= "world!";
         // echo $x;
 
+        //Array operations
 
+        //union
 
+        // $x = [1,2,3];
+        // $y = [3=>4,5,6,7];
+
+        // $z = $x + $y;
+
+        // // print_r($x);
+        // // print_r($y);
+        // print_r($z);
+
+        //Equal to
+        // $x = [1,2,3];
+        // $y = [2=>3, 1=>2, 0=>1];
+        // echo $x == $y; //true
+
+        //identical
+
+        // $x = [1,2,3];
+        // $y = [2=>3, 1=>2, 0=>1];
+        // echo $x === $y; //false
+
+        //decision making statements
+
+        //if statement
+
+        // if(4 == "4"){
+        //     echo "same";
+        // } elseif(6 > 5){
+        //     echo "6 is grater than 5";
+        // }
+        // else{
+        //     echo "no";
+        // }
+
+        // $gender = "female";
+        // if($gender == "female"){
+        //     echo "woman";
+        // }else{
+        //     echo "mens";
+        // }
+        //condition ? if true : if false
+        //echo $gender == "female" ? "woman" : "mens";
+        // $x =  $gender = "female" ? "woman" : "mens";
+        // echo $x;
+
+        // $x = $gender ?? "Male";
+        // echo $x;
+
+        //switch
+
+        // $color = "B";
+
+        // switch($color){
+        //     case "R":
+        //         echo "Red";
+        //         break;
+
+        //     case "G":
+        //         echo "Green";
+        //         break;
+
+        //     case "B":
+        //         echo "Blue";
+        //         break;
+
+        //     default:
+        //         echo "Invalid";
+        // }
+
+        //t & t
+        // if(4 == "4" && 4 == 4)={}
+
+        // //atleast 1 true
+        // if(4 == "4" || 4 == 4)={}
+
+        // //only 1 true cannot be both
+        // if(4 == "4" xor 4 == 4)={}
+
+        // //reverse
+        // echo !4 == "4";
+
+        //php loops statement
+        // while 
+        // $x = 0;
+        // while($x < 5){
+        //     echo "Hello";
+        //     continue;
+        //     $x++;
+        // }
+
+        // do while
+        // do{
+        //     if($x == 3){
+        //         continue;
+        //     }
+        //     echo $x;
+        //     $x++;
+        // }while($x < 5)
         
-    ?>
+        //for
+        // for($x = 0; $x < 5; $x++){
+        //     echo $x;
+        // }
+
+
+        //foreach
+        // $x = array(1,2,3,4);
+
+        // foreach($x as $key => $value){
+        //     echo $key . "->" . $value, "<br>";
+        // }
+        
+        
+
+        // ?>
+        // <ol>
+        //     <!-- <?php for($x = 1; $x <= 10; $x++){ ?>
+        //          <li>Item <?php echo $x;></li>
+        //     <?php } ?> -->
+
+        //     <?php 
+        //     $x = array("Maria", "Teresa", "Juana");
+        //         foreach($x as $value){
+        //             echo "<li> $value </li>";
+        //         }
+        //     ?>
+            
+        // </ol>
+      
 </body>
 </html>
 
