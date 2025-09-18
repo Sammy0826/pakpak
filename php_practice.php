@@ -344,24 +344,31 @@
         // foreach($x as $key => $value){
         //     echo $key . "->" . $value, "<br>";
         // }
-        
-        
 
-        // ?>
-        // <ol>
-        //     <!-- <?php for($x = 1; $x <= 10; $x++){ ?>
-        //          <li>Item <?php echo $x;></li>
-        //     <?php } ?> -->
-
-        //     <?php 
-        //     $x = array("Maria", "Teresa", "Juana");
-        //         foreach($x as $value){
-        //             echo "<li> $value </li>";
-        //         }
-        //     ?>
-            
-        // </ol>
-      
+    ?>
+        <!-- <?php
+            $students = array(
+                array("name"=>"Juan Cruz", "gender"=> "Male", "grade"=>"Grade 7"),
+                array("name"=>"Maria Makiling", "gender"=> "Female", "grade"=>"Grade 11"),
+                array("name"=>"Juan Luna", "gender"=> "Male", "grade"=>"First Year"),
+            );
+        ?>
+        
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Grade</th>
+            </tr>
+            <?php foreach($students as $student){ ?>
+                <tr>
+                    <td><?php echo $student["name"]; ?></td>
+                    <td><?php echo $student["gender"]; ?></td>
+                    <td><?php echo $student["grade"]; ?></td>
+                </tr>
+            <?php } ?>
+        </table> -->
+        
 </body>
 </html>
 
